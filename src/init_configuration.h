@@ -29,8 +29,8 @@
 //// AD595
 // 50 get Temperatur with AD595
 
-#define THERMISTORHEATER 11
-#define THERMISTORBED 11
+#define THERMISTORHEATER 3
+#define THERMISTORBED 3
 
 
 //-----------------------------------------------------------------------
@@ -54,7 +54,7 @@
 #define _Y_ENDSTOP_INVERT 	false
 #define _Z_ENDSTOP_INVERT 	false
 
-//#define ENDSTOPS_ONLY_FOR_HOMING // If defined the endstops will only be used for homing
+#define ENDSTOPS_ONLY_FOR_HOMING // If defined the endstops will only be used for homing
 
 #define _MIN_SOFTWARE_ENDSTOPS false; //If true, axis won't move to coordinates less than zero.
 #define _MAX_SOFTWARE_ENDSTOPS true; //If true, axis won't move to coordinates greater than the defined lengths below.
