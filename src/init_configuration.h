@@ -117,7 +117,7 @@
 // X, Y, Z, E maximum start speed for accelerated moves. E default values are good for skeinforge 40+, for older versions raise them a lot.
 #define _ACCELERATION 1000         // Axis Normal acceleration mm/s^2
 #define _RETRACT_ACCELERATION 2000 // Extruder Normal acceleration mm/s^2
-#define _MAX_XY_JERK 8.0
+#define _MAX_XY_JERK 14.0
 #define _MAX_Z_JERK 0.4
 #define _MAX_E_JERK 5.0
 #define _MAX_ACCELERATION_UNITS_PER_SQ_SECOND {5000,5000,50,5000}    // X, Y, Z and E max acceleration in mm/s^2 for printing moves or retracts
@@ -189,7 +189,7 @@
 #define HEATER_CHECK_INTERVAL 250
 #define BED_CHECK_INTERVAL 5000
 
-#define TEMP_HYSTERESIS 1       // (C°) range of +/- temperatures considered "close" to the target one
+#define TEMP_HYSTERESIS 1       // (Cï¿½) range of +/- temperatures considered "close" to the target one
 
 
 
